@@ -1,10 +1,17 @@
 import React from 'react'
 
-const App = () => {
-  return (
-    <h1>React development has begun!</h1>
-  )
+import { getAnime } from '../api'
+
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.setState = {
+      anime: this.props 
+    }
+  } getSnapshotBeforeUpdate
 }
+
 
 export default App
 
